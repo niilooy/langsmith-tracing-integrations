@@ -1,5 +1,7 @@
 # LangSmith Tracing Integrations
 
+>This repository is based on the [LangSmith Integrations documentation](https://docs.langchain.com/langsmith/integrations).
+
 A unified UV workspace for testing and demonstrating LangSmith tracing integrations with various AI frameworks.
 
 This project contains working examples of LangSmith tracing integration for:
