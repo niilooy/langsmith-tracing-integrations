@@ -1,0 +1,15 @@
+[project]
+name = "crewai-demo"
+version = "0.1.0"
+description = "CrewAI integration with LangSmith tracing"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langsmith>=0.4.38",
+    "crewai>=0.1.0",
+    "openinference-instrumentation-crewai>=0.1.0",
+    "openinference-instrumentation-openai>=0.1.0",
+    "opentelemetry-api>=1.20.0",
+    "opentelemetry-sdk>=1.20.0",
+    "python-dotenv>=1.0.0",
+]

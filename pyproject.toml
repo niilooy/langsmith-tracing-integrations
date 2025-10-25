@@ -1,0 +1,12 @@
+[project]
+name = "langsmith-tracing-integrations"
+version = "0.1.0"
+description = "LangSmith tracing integrations for various AI frameworks"
+readme = "README.md"
+requires-python = ">=3.13"
+
+[tool.uv.workspace]
+members = ["google-adk-demo", "openai-agents-demo", "crewai-demo", "claude-agent-sdk-demo"]
+
+[dependency-groups]
+dev = []
